@@ -5,7 +5,7 @@ from sqlalchemy.exc import SQLAlchemyError
 from Donors.models import BloodGroup  
 
 # Use the correct database URL for SQLAlchemy
-DATABASE_URL = "postgresql://postgres:12345@localhost/donate"  
+DATABASE_URL = "postgresql://password:12345@localhost/db_name"  
 
 # Create the database engine
 engine = create_engine(DATABASE_URL)
